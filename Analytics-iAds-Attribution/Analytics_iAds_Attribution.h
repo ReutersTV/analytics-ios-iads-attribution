@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char Analytics_iAds_AttributionVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Analytics_iAds_Attribution/PublicHeader.h>
 
-
+#import <Analytics_iAds_Attribution/SEGADTracker.h>

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B6546082117EF760011B869 /* Analytics_iAds_Attribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6546062117EF760011B869 /* Analytics_iAds_Attribution.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B6546122117EFEC0011B869 /* SEGADTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65460F2117EFEC0011B869 /* SEGADTracker.m */; };
-		2B6546142117EFEC0011B869 /* SEGADTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6546112117EFEC0011B869 /* SEGADTracker.h */; };
+		2B6546142117EFEC0011B869 /* SEGADTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6546112117EFEC0011B869 /* SEGADTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B6546162117F05D0011B869 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 2B6546152117F05D0011B869 /* Cartfile */; };
 		2B6546192117F10F0011B869 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6546182117F10F0011B869 /* Analytics.framework */; };
 		2B65461B2117F1290011B869 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 2B65461A2117F1290011B869 /* Cartfile.resolved */; };
