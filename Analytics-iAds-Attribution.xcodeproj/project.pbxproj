@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2B6546082117EF760011B869 /* Analytics_iAds_Attribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6546062117EF760011B869 /* Analytics_iAds_Attribution.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B6546122117EFEC0011B869 /* SEGADTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65460F2117EFEC0011B869 /* SEGADTracker.m */; };
-		2B6546142117EFEC0011B869 /* SEGADTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6546112117EFEC0011B869 /* SEGADTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B6546162117F05D0011B869 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 2B6546152117F05D0011B869 /* Cartfile */; };
 		2B6546192117F10F0011B869 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6546182117F10F0011B869 /* Analytics.framework */; };
 		2B65461B2117F1290011B869 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 2B65461A2117F1290011B869 /* Cartfile.resolved */; };
+		F7424B0226451E48004E3F28 /* Analytics-iAds-Attribution.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F7424B0126451E48004E3F28 /* Analytics-iAds-Attribution.podspec */; };
+		F7424B0626451EDC004E3F28 /* SEGADTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = F7424B0426451EDC004E3F28 /* SEGADTracker.m */; };
+		F7424B0726451EDC004E3F28 /* SEGADTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = F7424B0526451EDC004E3F28 /* SEGADTracker.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B6546032117EF760011B869 /* Analytics_iAds_Attribution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Analytics_iAds_Attribution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6546062117EF760011B869 /* Analytics_iAds_Attribution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Analytics_iAds_Attribution.h; sourceTree = "<group>"; };
 		2B6546072117EF760011B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B65460F2117EFEC0011B869 /* SEGADTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGADTracker.m; sourceTree = "<group>"; };
-		2B6546112117EFEC0011B869 /* SEGADTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGADTracker.h; sourceTree = "<group>"; };
 		2B6546152117F05D0011B869 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		2B6546182117F10F0011B869 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = Carthage/Build/iOS/Analytics.framework; sourceTree = "<group>"; };
 		2B65461A2117F1290011B869 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		F7424B0126451E48004E3F28 /* Analytics-iAds-Attribution.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Analytics-iAds-Attribution.podspec"; sourceTree = "<group>"; };
+		F7424B0426451EDC004E3F28 /* SEGADTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGADTracker.m; sourceTree = "<group>"; };
+		F7424B0526451EDC004E3F28 /* SEGADTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGADTracker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +43,11 @@
 		2B6545F92117EF760011B869 = {
 			isa = PBXGroup;
 			children = (
+				F7424B0126451E48004E3F28 /* Analytics-iAds-Attribution.podspec */,
 				2B6546152117F05D0011B869 /* Cartfile */,
 				2B65461A2117F1290011B869 /* Cartfile.resolved */,
 				2B6546052117EF760011B869 /* Analytics-iAds-Attribution */,
+				F7424B0326451EDC004E3F28 /* Classes */,
 				2B6546042117EF760011B869 /* Products */,
 				2B6546172117F10E0011B869 /* Frameworks */,
 			);
@@ -60,20 +64,10 @@
 		2B6546052117EF760011B869 /* Analytics-iAds-Attribution */ = {
 			isa = PBXGroup;
 			children = (
-				2B65460E2117EFEC0011B869 /* Classes */,
 				2B6546062117EF760011B869 /* Analytics_iAds_Attribution.h */,
 				2B6546072117EF760011B869 /* Info.plist */,
 			);
 			path = "Analytics-iAds-Attribution";
-			sourceTree = "<group>";
-		};
-		2B65460E2117EFEC0011B869 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2B65460F2117EFEC0011B869 /* SEGADTracker.m */,
-				2B6546112117EFEC0011B869 /* SEGADTracker.h */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		2B6546172117F10E0011B869 /* Frameworks */ = {
@@ -84,6 +78,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F7424B0326451EDC004E3F28 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7424B0426451EDC004E3F28 /* SEGADTracker.m */,
+				F7424B0526451EDC004E3F28 /* SEGADTracker.h */,
+			);
+			name = Classes;
+			path = Pod/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -91,7 +95,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6546142117EFEC0011B869 /* SEGADTracker.h in Headers */,
+				F7424B0726451EDC004E3F28 /* SEGADTracker.h in Headers */,
 				2B6546082117EF760011B869 /* Analytics_iAds_Attribution.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,7 +127,7 @@
 		2B6545FA2117EF760011B869 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Thomson Reuters";
 				TargetAttributes = {
 					2B6546022117EF760011B869 = {
@@ -155,6 +159,7 @@
 			files = (
 				2B6546162117F05D0011B869 /* Cartfile in Resources */,
 				2B65461B2117F1290011B869 /* Cartfile.resolved in Resources */,
+				F7424B0226451E48004E3F28 /* Analytics-iAds-Attribution.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6546122117EFEC0011B869 /* SEGADTracker.m in Sources */,
+				F7424B0626451EDC004E3F28 /* SEGADTracker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -224,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -259,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -279,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -304,7 +311,7 @@
 				);
 				INFOPLIST_FILE = "Analytics-iAds-Attribution/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,7 +340,7 @@
 				);
 				INFOPLIST_FILE = "Analytics-iAds-Attribution/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

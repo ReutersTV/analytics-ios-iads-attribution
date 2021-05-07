@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <Analytics/SEGMiddleware.h>
-
+#import <Segment/SEGMiddleware.h>
 
 @interface SEGADTracker : NSObject <SEGMiddleware>
 
