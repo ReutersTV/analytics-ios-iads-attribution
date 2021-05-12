@@ -34,11 +34,9 @@ Because this information in passed through the `context` object, this will not b
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
-Analytics-iAds-Attribution is available through [CocoaPods](http://cocoapods.org). This pod requires version 3.6.0 or higher of the `Analytics` pod. To install it, simply add the following line to your Podfile:
+Analytics-iAds-Attribution is available through [CocoaPods](http://cocoapods.org). This pod requires version 4.1.0 or higher of the `Analytics` pod. To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "Analytics"

@@ -1,7 +1,6 @@
 #import "SEGADTracker.h"
 #import <iAd/iAd.h>
-#import <Analytics/SEGAnalyticsUtils.h>
-
+#import <Segment/SEGAnalyticsUtils.h>
 
 @implementation SEGADTracker
 
